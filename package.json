@@ -1,0 +1,37 @@
+{
+  "name": "UserApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apsl-react-native-button": "^3.1.0",
+    "immutability-helper": "^2.6.6",
+    "moment": "^2.21.0",
+    "native-echarts": "^0.4.0",
+    "prop-types": "^15.6.0",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-native-charts-wrapper": "^0.4.2",
+    "react-native-flexi-radio-button": "^0.2.2",
+    "react-native-image-picker": "^0.26.7",
+    "react-native-linear-gradient": "^2.4.0",
+    "react-native-modal-datetime-picker": "^5.1.0",
+    "react-native-parallax-scroll-view": "^0.21.0",
+    "react-native-popup-dialog": "^0.11.46",
+    "react-native-scrollable-tab-view": "^0.8.0",
+    "react-native-tab-navigator": "^0.3.4",
+    "react-navigation": "^1.0.0-beta.22"
+  },
+  "devDependencies": {
+    "babel-jest": "22.0.4",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.0.4",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
